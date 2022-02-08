@@ -24,21 +24,18 @@ A bootstarp project for Apache Kafka in python that helps to setup kafka, produc
 
 Create Topic,
 
-```
-kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic messages
-```
+    ```
+    kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic messages
+    ```
 
 Producer,
 
-```
-python3 producer.py
-
+    ```
+    python3 producer.py
+    ```
 
 Consumer,
 
-```
-python3 consumer.py
-```
-
-
-```
+    ```
+    python3 consumer.py
+    ```
